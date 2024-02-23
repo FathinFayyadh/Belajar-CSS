@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Specifity css </title>
+</head>
+<style>
+body{ /*  ini gobal universal nilai nya 0*/
+background-color: lightcoral;
+}
+div{
+    background-color: aqua;/* dan ini nilai 1 */
+}
+.satu{
+    background-color: antiquewhite; /* dan ini nilainya 10 */
+
+}
+#idsatu{
+    background-color: blue; /* dan ini nilainya 100 */
+}
+#idsatu{
+    background-color: beige; /*  sama nilainya tapi dia mengambil urutan terakhir */
+}
+div #idsatu{ /* ini akan di periritaskan karena tambah elemnnya div 1 sedangkan id 1000 jadi 1000 + 1 maka akan menang melawan urutan  */
+     
+}
+</style>
+<body>
+    
+    <div class="satu" title="ini lorem" id="idsatu"  > <!--  dan style di dalam div nilainya 1000 -->
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quo enim officiis, repellendus id minus recusandae odio atque expedita, praesentium itaque, in placeat. Similique, ad earum! Velit, numquam ut! Esse repellat quod distinctio dolorem qui, quidem velit! Distinctio facere nihil cum. Perferendis, nulla. Quidem repudiandae ipsa quis, repellat vitae accusamus optio cupiditate tenetur quisquam dolores voluptates dicta labore nesciunt quam porro praesentium rerum nobis, fugit earum eius tempora itaque! Fugit non voluptate dolore earum a facere quis obcaecati? Molestias consequuntur ea perspiciatis. Rem maiores dignissimos vitae culpa enim consectetur adipisci hic doloribus similique, fuga tempora recusandae, ab reprehenderit debitis. Officia.
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh Penggunaan px dan % dan margin dan padding </title>
+    <style>
+        /* Penggunaan px untuk menentukan ukuran elemen */
+        .box-px {
+            width: 200px;
+            height: 100px;
+            background-color: #f0f0f0;
+        }
+
+        /* Penggunaan % untuk menentukan ukuran elemen relatif terhadap elemen induk */
+        .box-percent {
+            width: 50%;
+            height: 50%;
+            background-color: #ccc;
+        }
+
+        /* Penggunaan % untuk tata letak dalam elemen induk */
+        .parent {
+            width: 400px;
+            height: 200px;
+            background-color: #ddd;
+            position: relative;
+            /* margin: auto; */
+            margin: 20px 0px 0px 0px ;/* memberi jarak di luar konten  */
+
+        
+        }
+
+        .child {
+            width: 50%;
+            height: 50%;
+            background-color: #888;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+        }
+        .jarak{
+            padding: 20px;
+            padding-top: 20px; /* Membri jarak di dalam  konten */
+
+            max-width: 500px; /* merseponsive konten di dalam */
+        }
+    </style>
+</head>
+<body>
+    <h1>Contoh Penggunaan px dan % dan margin dan padding </h1>
+    <div class="box-px">Ini menggunakan ukuran dalam px.</div>
+    <div class="box-percent">Ini menggunakan ukuran dalam persentase.</div>
+
+    <div class="parent">
+        <div class="child">Ini juga menggunakan ukuran dalam persentase.</div>
+    </div>
+  
+    <div class="jarak">
+        <p>ini contoh padding </p>
+    </div>
+</body>
+</html>

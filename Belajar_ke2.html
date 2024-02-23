@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator selector</title>
+
+    <style>
+ div > p{ /*  ini yang disebut childe selector */
+color: blue;
+ }
+ div + p{ /* ini yang di sebut  adjancent sibling selector */
+color: aqua;
+}
+div ~ p{ /* general siblinng selector */
+  color: red;
+}
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>ini</p>
+      <p>ini</p>
+      <section>
+          <p>ini</p> 
+      </section>
+    </div>
+    <section>
+        <label for="">Ini label</label>
+    </section>
+    <p>ini</p>
+  </body>
+</html>

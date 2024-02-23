@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar float di css</title>
+  </head>
+  <style>
+    .galeri {
+      border: solid;
+      width: 900px;
+
+      margin: auto;
+    }
+    .image {
+      width: 25%;
+     
+      float: right;
+    }
+    .clearfix{
+        content: "";
+        clear: both;
+        display: table;
+    }
+  </style>
+  <!-- - float
+     - clearfix 
+ -->
+  <body>
+    <div class="galeri">
+        
+      <div class="image">
+        <img src="/img/download (1).jpeg" width="100%" alt="" />
+      </div>
+      <div class="image">
+        <img src="/img/download (1).jpeg" width="100%" alt="" />
+      </div>
+      <div class="image">
+        <img src="/img/download (1).jpeg" width="100%" alt="" />
+      </div>
+      <div class="image">
+        <img src="/img/download (1).jpeg" width="100%" alt="" />
+      </div>
+    </div>
+    <!--  -->
+    <div class="galeri">
+        <div class="image">
+          <img src="/img/download (1).jpeg" width="100%" alt="" />
+        </div>
+        <div class="image">
+          <img src="/img/download (1).jpeg" width="100%" alt="" />
+        </div>
+        <div class="image">
+          <img src="/img/download (1).jpeg" width="100%" alt="" />
+        </div>
+        <div class="image">
+          <img src="/img/download (1).jpeg" width="100%" alt="" />
+        </div>
+      </div>
+      <!--  -->
+      <div class="galeri">
+        <div class="image">
+          <img src="/img/download (1).jpeg" width="100%" alt="" />
+        </div>
+        <div class="image">
+          <img src="/img/download (1).jpeg" width="100%" alt="" />
+        </div>
+        <div class="image">
+          <img src="/img/download (1).jpeg" width="100%" alt="" />
+        </div>
+        <div class="image">
+          <img src="/img/download (1).jpeg" width="100%" alt="" />
+        </div>
+        <div class="clearfix"></div>
+      </div>    
+  </body>
+</html>

@@ -1,0 +1,12 @@
+div{
+    background-color: yellow;
+    background-image: url(/img/download\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+p{
+    padding: 40px;
+    color: rgb(232, 21, 21);
+}

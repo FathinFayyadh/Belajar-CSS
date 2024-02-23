@@ -1,0 +1,16 @@
+.satu{
+ background-color: silver;
+}
+.dua{
+    background-color: bisque;
+    margin-top: 50px;
+    text-transform: capitalize;
+    text-indent: 100px; /* mengeser barisan pertama dalam kata  */
+    letter-spacing: 20px; /* untuk jarak dalam kata  */
+    line-height: 3; /* untuk jaraj per baris  */
+    word-spacing: 30px;/* jarak untuk per kata */    
+}
+h1{
+    /* jarak kana , jarak bawah  , tingkat blur , warna bayangan  dan untuk ke atas / lawan arah  tinggal di kasi  minus - */
+    text-shadow: 30px 10px 6px blue ;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple selector pada css</title>
+</head>
+<style>
+  *{ /* selector universal mencakup semua */
+    color: green;
+    background: orange;
+  }
+   p{/* ini disebur elemen  /*  */
+    color: blue;
+    }
+    #paragraf1{
+      background-color: yellow;
+      color: red;
+    }
+
+    .contoh{ /* elemen seltor clas yang nama kelas nya contoh /*  */
+      text-align: center;
+    } 
+    h1,h2,h3{ /* ini adalah selector group untuk mengunakan elemen yang sama ini sangat membantu agar tida pemborosan code  */
+      text-align: center;
+      color: aqua;
+    }
+  p.contoh2#kata3{
+    color: blue;
+    text-align: center;
+
+  }
+</style>
+<body>
+  <p id="paragraf1" >ini paragraf satu</p> <!-- id bisa disebut atrbut  id lebih kuat dari elemen-->
+  <p id="paragraf2" >ini paragraf dua</p>
+  <p id="paragraf3" >ini paragraf tiga</p>
+
+  <div class="contoh">ini div satu </div>
+
+<!-- selector group ping selector -->
+<h1>ini header 1</h1>
+<h2>ini header 2 </h2>
+<h3>ini header 5</h3>
+
+<p class="contoh4" id="kata1">ini contoh satu</p>
+<p class="contoh3" id="kata2">ini contoh dua </p>
+<p class="contoh2" id="kata3">ini contoh tiga</p>
+<div class="contoh"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+p{/* 
+    border-style: solid ;
+    border-width: 2px ;
+    border-color: blue ;
+    border: radius 10px;  */
+    border: bisque solid 5px;
+    border-radius: 10px 0px 0px 0px;
+}
+h1{
+    color: rgb(180, 99, 71);
+}
+h2{
+   color: #ae6353;
+
+   
+}
+h3{
+    color: hsl(239, 72%, 60%);
+}
